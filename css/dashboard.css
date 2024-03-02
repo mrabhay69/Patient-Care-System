@@ -1,0 +1,355 @@
+.admin_logo{
+    width: 100%;
+    padding: 14px 12px;
+    border-bottom: 1px solid white;
+}
+.admin_logo #icon{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    
+    border-radius: 50%; 
+}
+.admin_logo span{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#icon i{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 1px;
+    line-height: 20px;
+}
+.add_menu{
+width: 100%;
+height: 80px;
+padding: 6px;
+color: white;
+}
+.add_menu button{
+width:200px;
+height: 50px;
+font-size: 16px;
+border: none;
+outline: none;
+cursor: pointer;
+}
+/* button .op_icons{
+width: 20px;
+padding: 4px ;
+} */
+button .op_icons i{
+width: 25px;
+position: absolute;
+left: 35px;
+font-size: 25px ;
+padding-right: 7px;
+}
+.box{
+height: 100px;
+padding: 12px 16px;
+width: 220px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-right: 25px;
+border: none;
+border-radius: 6px;
+outline: none;
+text-align: center;
+background-color: aqua;
+
+}
+.box p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.box .d{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.dash_info{
+/* display: flex;
+justify-content: space-around;
+flex-wrap: wrap; */
+
+}
+.box p{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+#view_dashbords_1 , #view_dashbords_2 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 35px;
+/* display: none; */
+}
+.specs{
+/* display: none; */
+}
+.add_patient_form{
+display: none;
+}
+.form{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.782);
+margin-bottom: 20px;
+color: white;
+/* display: none; */
+}
+.form  header{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px 12px;
+height: 50px;
+border-bottom: 1px solid white;
+}
+.form .topic{
+font-size: 18px;
+font-weight: 450;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.form .close{
+font-size: 30px;
+
+cursor: pointer;
+margin-top: 0;
+
+}
+
+.search-inp{
+    /* width: 100%;
+    height: 35px;
+    padding: 8px;
+    border: none;
+    outline: none; */
+  position: relative;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 16px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.form label{
+padding: 12px 8px;
+}
+.inputs{
+/* height: 350px; */
+overflow-y: none;
+}
+#save_new_add_p{
+width: 100px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+.table{
+border: 1px solid white;
+}
+#add_patient_record,#view_appointment_table,#view_appointment_accepted_table,#view_appointment_rejected_table,
+#patient_hist_table_id{
+border: 1px solid white;
+width: 90%;
+padding: 6px;
+margin: 15px auto;
+}
+
+/* #view_appointment_accepted_table{
+    width: 60%!important;
+    
+} */
+
+th{
+font-size: 18px;
+padding: 8px 12px;
+text-align: center;
+background-color: rgba(0,255,215,0.8);
+}
+td{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 12px;
+background-color: #ffff;
+color: black;
+}
+tr,th,td{
+border: 1px solid rgb(0, 0, 0);
+}
+
+.view_appointments{
+    display: none;
+}
+
+/* search appointment box */
+
+.searchbox_appointment{
+    width: 450px;
+    /* float: right; */
+   
+    display: none;
+    
+}
+#search_appointment_inp{
+font-size: 16px;
+/* padding: 8px 12px; */
+border: 3px solid dodgerblue;
+outline: none!important;
+/* display: none; */
+width: 0px;
+
+}
+.searchbox_appointment button{
+    width: 80px;
+    
+}
+.patient_hist{
+    display: none;
+}
+
+
+
+
+
+
+/*search appointment box end  */
+
+
+
+/* view patient start */
+.btn_tc,.btn_tg{
+    width: 150px;
+    height: 50px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn_tc{
+    border-color: aqua;
+} 
+    .btn_tc:hover{
+background-color: aqua;
+
+    }
+    .btn_tg{
+        border-color: rgb(226, 15, 15);
+        /* color:  rgb(226, 15, 15); */
+    } 
+        .btn_tg:hover{
+    background-color:   rgb(226, 15, 15);
+    color: white;
+        }
+
+        .view_patient_container{
+width: 80%;
+margin: 35px auto;
+text-align: center;
+display: none;
+        }
+        .x{
+            border-bottom: 2px solid red;
+padding-bottom: 22px;
+        }
+        .view_patient_container p{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1.12px;
+            font-weight: 450;
+        }
+        .view_patient_container button{
+            margin-left: 40px;
+        }
+
+
+        .T_going_class,.T_complete_class{
+            display: none;
+           
+        }
+header{
+    width: 100%;
+    height: 80px;
+    
+   display: flex;
+    align-items: center;
+}
+ .comapany-title{
+     width:50%;
+     
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     height: 60px;
+     /* background-color: #ffc107; */
+    
+}
+.comapany-title h4{
+    padding: 6px 15px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.admin-info{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.admin-info .img{
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* padding: 12px; */
+    border: none;
+    margin-right: 8px;
+}
+.admin-info span{
+    margin-right: 20px;
+    padding: 0px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin-info button{
+    margin-right: 8px;
+}
+        .xx{
+            margin: auto;
+        }
+        .z{
+            height:730px;
+            border-top: 2px solid white ;
+            background-color: rgba(0, 0, 0, 0.782);
+        }
+        .err{
+            display:none;
+            color: #ffc107;
+            text-align: center;
+            width: 100%;
+        }
+        .succmess{
+            display: none;
+            background-color: red;;
+        }
+/* view patient end */
+
+/* search box */
+
+.Search-box{
+width: 500px;
+/* display: none; */
+
+}

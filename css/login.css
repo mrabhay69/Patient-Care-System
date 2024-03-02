@@ -1,0 +1,44 @@
+/* login form styling start*/
+
+.login{
+    width: 95%;
+    margin: auto;
+  }
+  .head_login {
+    margin: 45px 0;
+  }
+  .container{
+   
+    margin-top: 50px;
+    height: 380px;
+    width: 510px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;;
+  }
+  .login_sec{
+   text-align: center;
+   margin: 10px auto;
+    
+  }
+  .login_btn{
+    width: 150px;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+  }
+  .forgot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .forgot a{
+    text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding: 8px;   }
+  
+  
+  /* login styling end */
+  

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/navbar.css">
+  <style>
+    .tab_2{
+    width:70%;
+    margin: 150px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 18px 22px;
+    height: auto;
+    position: relative;
+}
+.tab_2 h4{
+    padding: 15px;
+}
+.btn{
+    width:120px;
+    text-align:center;
+    position: absolute;
+   right:15px;
+   bottom:5px;
+  
+    
+}
+.err{
+    display:"block";
+    width:100%;
+    padding-top: 12px;
+    color:red;
+    text-align:center;
+    display:none;
+}
+
+  </style>
+  
+</head>
+<body>
+<header id="navbar">
+        <div class="logo">
+<h4 class="logo_head">Patient Care System</h4>
+        </div>
+        <div class="links">
+<ul id="ul">
+    <li><a href="home.php" class=" link_menu menu_active">Home</a></li>
+   
+    <li><a href="about.php" class=" link_menu ">About Us</a></li>
+    <li><a href="help.php" class=" link_menu ">Help</a></li>
+    <li><a href="#" class=" link_menu ">Book</a></li>
+</ul>
+        </div>
+        <div class="op">
+<buton class="opbtn reg"><a href="reg1.html">Register</a></buton>
+<buton class="opbtn log"><a href="Login.php">Login</a></buton>
+        </div>
+    </header>
+<div class="tab_2">
+            <center><h4>Personal Information</h4></center>
+            <form method="POST" id="form">
+
+                <div class="row form-group">
+                    <div class="mt-3 col-sm-6">
+                        <p  class="input-group  ">
+    <span class="input-group-text">First Name</span>
+    <input type="text" class="form-control" name="Fname" id="Fname" placeholder="Enter First Name here..." oninput="this.className = ''">
+    <span id="Fname_err" class="err">** This is required **</span>
+    </p>
+                    </div>
+                    <div class="mt-3 col-sm-6 form-group">
+                        <p  class="input-group  ">
+    <span class="input-group-text">Last Name</span>
+    <input type="text" class="form-control" name="Lname" id="Lname" placeholder="Enter Last Name here..." oninput="this.className = ''">
+    <span id="Lname_err" class="err">** This is required **</span>
+    </p>
+                    </div>
+                   
+                </div>  
+    
+                 <!-- 2nd row --> 
+    
+                  <div class="row">
+                    <div class=" mt-3 input-group mb-3 form-group">
+                        <span class="input-group-text">Email</span>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email....">
+                        <span id="email_err" class="err">** This is required **</span>
+                       
+                      </div>
+                      <div class=" mt-3 input-group mb-3 form-group">
+                        <span class="input-group-text">Contact Number</span>
+                        <input type="number" class="form-control" id="contact" name="contact" placeholder="Enter Your Contact Number...">
+                        <span id="contact_err" class="err">** This is required **</span>
+                      </div>
+                </div>  
+            
+    
+                <!-- 3rd row  -->
+             <div class="row">
+                <div class=" mt-3 col-md-6 form-group">
+                    <p class="input-group">
+                        <span class="input-group-text">Select Your Gender</span>
+                        <select class="form-control" id="gender" name="gender">
+                            <option value="Select Gender">Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <span id="gender_err" class="err">** This is required **</span>
+                    </p>
+                </div>  
+    
+    
+     <div class=" mt-3 col-md-6 form-group">
+        <p class="input-group">
+            <span class="input-group-text">Select Your Date of Birth</span>
+            <input type="date" class="form-control" name="dob" id="dob">
+            <span id="dob_err" class="err">** This is required **</span>
+        </p>
+    </div>
+    
+    
+            </div>  
+            
+    
+         <!-- 4th row  -->
+          <!-- <div class="row">
+            <div class="col-sm-12 form-group">
+                <p class="input-group">
+                   <center> <p><h4>Upload Your Photo</h4></p></center>
+                    <input type="file" class="form-control" id="photo" name="photo">
+                    <span id="photo_err" class="err">** This is required **</span>
+                </p>
+            </div>
+        </div> -->
+        <div class="mb-4">
+            <button class="btn btn-primary" id="save_pd">Submit</button>
+        </div>
+        
+            </form>
+            
+    </div>  
+    <script src="js/navbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/reg1.js"></script>
+    <script>
+        
+    //   $(document).ready(function(){
+        
+    //     $("#navbar").css("box-shadow","0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19");
+         
+
+    //   })
+       
+    </script>
+</body>
+
+</html>

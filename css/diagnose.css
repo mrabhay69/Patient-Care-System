@@ -1,0 +1,76 @@
+.p_info{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    
+    
+
+}
+/*  */
+.data-for-insert{
+    display: none;
+}
+.e{
+    /* display: none; */
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+    text-align: center;
+}
+.err{
+    color:red;
+padding: 5px 8px;
+display: block;
+}
+.p_info p{
+    padding: 12px;
+      color: black;
+   
+}
+label{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 10px;
+}
+.save_btn{
+    width: 120px;
+    margin: 30px 10px;
+}
+.container{
+    border: 3px solid pink;
+    /* background-color: red; */
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+
+/* editpatient info styling */
+table{
+    /* width: 60%; */
+    margin: 20px auto;
+}
+table ,tr,th{
+    border: 2px solid black;
+}
+
+th{
+    padding: 16px 12px;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+/* tr:nth-child(even){background-color: #f2f2f2;} */
+
+.u{
+    border: none;
+    outline: none;
+    width: auto;
+    height: auto;
+    border-radius: 0px !important;
+    width: 250px;
+}

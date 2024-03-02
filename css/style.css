@@ -1,0 +1,192 @@
+
+
+ *{
+/* background-color: #451e1e !important;  */
+ }
+  
+  
+
+#regForm {
+  background-color: #ffffff !important;
+  margin: 100px auto !important;
+  font-family: Raleway !important;
+  padding: 40px !important;
+  width: 70% !important;
+  min-width: 300px !important;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+#Fname{
+  width: 65% !important;
+}
+.s{
+  width: 200px !important;
+}
+#Lname{
+  width: 65%;
+}
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+#security,#EduDetail {
+  display: none;
+  
+}
+
+#nextBtn {
+  background-color: #04aa6def;
+  color: #ffffff;
+  border: none;
+  padding: 6px 8px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  display: none;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+ 
+  font-size: 17px;
+  font-family: Raleway;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+  background-color: dodgerblue;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+/*
+
+
+/* tabs hidding or showing start */
+
+#other_pg{
+  display: none;
+}
+
+#other_ug{
+  display: none;
+}
+
+#ug_college_list{
+  display: none;
+}
+#pg_college_list{
+  display: none;
+}
+
+#Master_deg{
+  display: none;
+}
+#bachelor_deg{
+  display: none;
+}
+
+
+#prevBtn {
+  background-color: #df38ee;
+  color: #ffffff;
+  border: none;
+  padding: 6px 8px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  display: none;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+
+#prevBtn_2 {
+  background-color: #df38ee;
+  color: #ffffff;
+  border: none;
+  padding: 6px 8px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  display: none;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+
+
+
+.cit,.sta,.dis{
+  display: none;
+}
+
+.error{
+  width: 100%;
+  padding: 12px;
+  display:none;
+  color: red;
+  font-size: 18px;
+}
+.error_e{
+  width: 100%;
+  padding: 12px;
+  display:none;
+  color: red;
+  font-size: 18px;
+}
+#pincode{
+  background-color: #04aa6def;
+  color: #ffffff;
+  border: none;
+  padding: 6px 8px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+
+}
+
+
+/* tabs hidding or showing end  */
+
+
+
